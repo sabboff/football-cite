@@ -4,7 +4,9 @@
 /*---------------- 
 common styles 
 ------------------*/
-
+/* html{
+    width: 1440px;
+} */
 *{
     margin: 0;
 }
@@ -31,7 +33,7 @@ i .fa-arrow-alt-circle-right{
     display: flex;
     justify-content: center;
     align-items: stretch;
-    padding-top: 60px;
+    padding-top: 100px;
     
 }
 .header-title-and-button{
@@ -53,6 +55,17 @@ i .fa-arrow-alt-circle-right{
     font-weight: 500 ;
     background-color: #E02C6D;
     padding: 10px 30px;
+}
+
+/* transitions */
+.header-area:hover .header-image img{
+    transform: rotate(30deg);
+    transition:transform 0.7s ease-out ;
+}
+
+.header-area:hover{
+    background-color: #cf2852bd;
+    transition: background-color 0.8s ease-in;   
 }
 
 
