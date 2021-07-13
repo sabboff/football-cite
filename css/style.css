@@ -1,5 +1,5 @@
 /* google font */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 /*---------------- 
 common styles 
@@ -10,13 +10,50 @@ common styles
 }
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+    width: 1440px;
+}
+i .fa-arrow-alt-circle-right{
+   
+    font-size: 16px;
 }
 
 
 /*------------------
  header styles 
  -------------------*/
-
+.header-area{
+    width: 1440px;
+    height: 677px;
+    background-color: #2D25A0;
+}
+.header-all-items{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 60px;
+    
+}
+.header-title-and-button{
+    width: 50%;
+}
+.header-title h1{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+}
+.header-button a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500 ;
+    background-color: #E02C6D;
+    padding: 10px 30px;
+}
 
 
 
@@ -27,9 +64,13 @@ body{
 
 
 
+/*----------------------
+ bonus section styles 
+ -----------------------*/
+
 
 
 
   /*----------------------
    footer styles
-   --------------------- */
+   ---------------------git */
