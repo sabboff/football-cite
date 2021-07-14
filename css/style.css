@@ -4,6 +4,9 @@
 /*---------------- 
 common styles 
 ------------------*/
+:root{
+    --color:#54bbf3;
+} 
 
 *{
     margin: 0;
@@ -18,8 +21,8 @@ i .fa-arrow-alt-circle-right{
     font-size: 16px;
 }
 
-.copa-color{
-    color:#54bbf3; 
+.span-color{
+    color:var(--color); 
     
 }
 
@@ -99,11 +102,12 @@ i .fa-arrow-alt-circle-right{
 }
 .card{
     width: 300px;
-    height: 450px;
+    height: 480px;
     box-shadow: 5px 5px 30px rgba(155, 152, 152, 0.445);
     padding: 15px;
     text-align: left;
     border-radius: 5px;
+    cursor: pointer;
 }
 .card img{
     border-radius: 5px;
@@ -113,11 +117,33 @@ i .fa-arrow-alt-circle-right{
 }
 
 /*----------------------
- bonus section styles 
+ bonus section , related-videos styles 
  -----------------------*/
 
+.related-videos{
+    padding: 60px;
+}
 
-
+ .iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .video-title{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    font-size: 40px;
+    font-weight: 700;
+  }
 
   /*----------------------
    footer styles
@@ -125,13 +151,13 @@ i .fa-arrow-alt-circle-right{
 
 .footer-area{
     padding: 10px;
-    border: 1px solid rgba(128, 128, 128, 0.247);
+    border-top: 1px solid rgba(128, 128, 128, 0.247);
     height: 220px;
     text-align: center;
 }
 .footer-logo img{
     position: relative;
-    left: -55px;
+    left: -35px;
 }
 .social-icons i{
     height: 82px;
@@ -140,6 +166,7 @@ i .fa-arrow-alt-circle-right{
     color: rgba(128, 128, 128, 0.555);
 }
 .copyright p{
+    font-size: 16px;
     font-weight: 400;
 }
 
