@@ -117,9 +117,28 @@ i .fa-arrow-alt-circle-right{
 }
 
 /*----------------------
- bonus section , related-videos styles 
+ bonus section , followers
  -----------------------*/
+.followers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    /* height: 200px; */
+    background-color: #1F1F40;
+}
+.achivements h1{
+    font-size: 54px;
+    color: white;
+}
+.achivements h4{
+    color: #F57479;
+}
 
+
+
+/* section related videos styles
+------------------------------------ */
 .related-videos{
     padding: 60px;
 }
