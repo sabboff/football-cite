@@ -209,6 +209,9 @@ section related videos styles
         padding: 0;
         margin: 0;
     }
+    .header-button a{
+        margin-left: 0;
+    }
     .player-cards{
         justify-content: center;
         grid-template-columns: repeat(1, 1fr);
