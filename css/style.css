@@ -27,7 +27,7 @@ i .fa-arrow-alt-circle-right{
 }
 
 /*------------------
- header styles 
+    header styles 
  -------------------*/
 
 .header-area{
@@ -62,7 +62,9 @@ i .fa-arrow-alt-circle-right{
     padding: 10px 30px;
 }
 
-/* transitions */
+/* transitions
+----------------*/
+
 .header-area:hover .header-image img{
     transform: rotate(30deg);
     transition:transform 0.7s ease-out ;
@@ -116,9 +118,11 @@ i .fa-arrow-alt-circle-right{
     color: #6c6c6cda;
 }
 
-/*----------------------
- bonus section , followers
- -----------------------*/
+/*---------------------------------
+ bonus section 
+ -----------------------------------
+ , followers styles
+ ----------------------------------*/
 .followers{
     display: flex;
     justify-content: space-evenly;
@@ -136,9 +140,10 @@ i .fa-arrow-alt-circle-right{
 }
 
 
-
-/* section related videos styles
+/*----------------------------------- 
+section related videos styles
 ------------------------------------ */
+
 .related-videos{
     padding: 60px;
 }
@@ -219,5 +224,10 @@ i .fa-arrow-alt-circle-right{
     .footer-area{
         padding: 10px;
         border: 0px solid rgba(128, 128, 128, 0.247);
-
+    }
+    .followers{
+        display: flex;
+        flex-direction: column;
+    }
+         
 }
